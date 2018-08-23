@@ -114,13 +114,5 @@ if __name__ == '__main__':
 
   create_graph()
   print("Model loaded")
-
-  node_lookup = NodeLookup()
-  print("Node lookup loaded")
-
-  sess = tf.Session()
-  print("Tensorflow session ready")
-
-  print("Launching web application...")
   app.run()
   
